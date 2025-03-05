@@ -74,6 +74,7 @@ class EmployeePayroll {
     getDetails = () => 
         `ID: ${this.id}, Name: ${this.name}, Salary: $${this.salary}, Gender: ${this.gender}, Start Date: ${this.startDate.toDateString()}`;
 }
+
 const emp1 = new EmployeePayroll(101, "Anand", 5000, "M", "2023-05-10");
 const emp2 = new EmployeePayroll(102, "Muskan", 7000, "F", "2023-06-10");
 const emp3 = new EmployeePayroll(103, "Ankit", 9000, "M", "2023-07-10");
